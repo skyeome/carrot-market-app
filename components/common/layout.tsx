@@ -1,5 +1,5 @@
 import { PropsWithChildren } from "react";
-import { cls } from "../../libs/utils";
+import { cls } from "@/libs/client/utils";
 import TabBar from "./tabbar";
 import Header from "./header";
 

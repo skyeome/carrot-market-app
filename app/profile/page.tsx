@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Layout from "../../components/common/layout";
+import Layout from "@/components/common/layout";
 
 export default function Profile() {
   return (

@@ -1,5 +1,5 @@
-import Button from "../../../components/common/button";
-import Layout from "../../../components/common/layout";
+import Button from "@/components/common/button";
+import Layout from "@/components/common/layout";
 
 export default function ItemDetail() {
   return (

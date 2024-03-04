@@ -1,5 +1,5 @@
-import Layout from "../../../components/common/layout";
-import Message from "../../../components/common/message";
+import Layout from "@/components/common/layout";
+import Message from "@/components/common/message";
 
 export default function Stream() {
   return (

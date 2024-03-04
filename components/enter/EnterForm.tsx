@@ -1,5 +1,3 @@
-"use client";
-
 import { UseFormHandleSubmit, UseFormRegister, useForm } from "react-hook-form";
 import Button from "../common/button";
 import Input from "../common/input";
@@ -9,23 +7,19 @@ interface EnterFormProps {
   method: string;
   register: UseFormRegister<EnterFormType>;
   handleSubmit: UseFormHandleSubmit<EnterFormType, undefined>;
+  enter: (data: any) => void;
 }
 
 export default function EnterForm({
   method,
   register,
   handleSubmit,
+  enter,
 }: EnterFormProps) {
   const onSubmit = handleSubmit((data) => {
-    fetch("/api/users/enter", {
-      method: "POST",
-      body: JSON.stringify(data),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-    console.log(data);
+    enter(data);
   });
+
   return (
     <form className="flex flex-col mt-8 space-y-4" onSubmit={onSubmit}>
       {method === "email" && (

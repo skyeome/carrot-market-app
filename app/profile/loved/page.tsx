@@ -1,5 +1,5 @@
-import Item from "../../../components/common/item";
-import Layout from "../../../components/common/layout";
+import Item from "@/components/common/item";
+import Layout from "@/components/common/layout";
 
 export default function Loved() {
   return (

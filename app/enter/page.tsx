@@ -5,6 +5,7 @@ import EnterForm from "@/components/enter/EnterForm";
 import EnterTab from "@/components/enter/EnterTab";
 import EnterSocialLogin from "@/components/enter/EnterSocialLogin";
 import { useForm } from "react-hook-form";
+import useMutation from "@/libs/client/useMutation";
 
 export interface EnterFormType {
   email?: string;
@@ -12,6 +13,7 @@ export interface EnterFormType {
 }
 
 export default function Enter() {
+  const [enter, { loading, data, error }] = useMutation("/api/users/enter");
   const { register, handleSubmit, reset } = useForm<EnterFormType>();
   const [method, setMethod] = useState<"email" | "phone">("email");
   return (
@@ -22,6 +24,7 @@ export default function Enter() {
         method={method}
         register={register}
         handleSubmit={handleSubmit}
+        enter={enter}
       />
       <EnterSocialLogin />
     </div>

@@ -1,5 +1,5 @@
 import { EnterFormType } from "@/app/enter/page";
-import { cls } from "@/libs/utils";
+import { cls } from "@/libs/client/utils";
 import { Dispatch, SetStateAction } from "react";
 import { UseFormReset } from "react-hook-form";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { cls } from "../../libs/utils";
+import { cls } from "@/libs/client/utils";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   large?: boolean;

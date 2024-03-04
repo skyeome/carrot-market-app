@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { cls } from "../../libs/utils";
+import { cls } from "@/libs/client/utils";
 
 export default function TabBar() {
   const pathname = usePathname();

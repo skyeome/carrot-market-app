@@ -1,5 +1,5 @@
-import Layout from "../../../components/common/layout";
-import TextArea from "../../../components/common/textarea";
+import Layout from "@/components/common/layout";
+import TextArea from "@/components/common/textarea";
 
 export default function CommunityPostDetail() {
   return (
