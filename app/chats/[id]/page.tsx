@@ -1,5 +1,5 @@
-import Layout from "../../../components/layout";
-import Message from "../../../components/message";
+import Layout from "../../../components/common/layout";
+import Message from "../../../components/common/message";
 
 export default function ChatDetail() {
   return (

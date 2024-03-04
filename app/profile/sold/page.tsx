@@ -1,5 +1,5 @@
-import Item from "../../../components/item";
-import Layout from "../../../components/layout";
+import Item from "../../../components/common/item";
+import Layout from "../../../components/common/layout";
 
 export default function Sold() {
   return (

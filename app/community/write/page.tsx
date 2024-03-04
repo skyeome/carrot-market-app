@@ -1,6 +1,6 @@
-import Button from "../../../components/button";
-import Layout from "../../../components/layout";
-import TextArea from "../../../components/textarea";
+import Button from "../../../components/common/button";
+import Layout from "../../../components/common/layout";
+import TextArea from "../../../components/common/textarea";
 
 export default function Write() {
   return (

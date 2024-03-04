@@ -1,6 +1,6 @@
-import Button from "../../../components/button";
-import Input from "../../../components/input";
-import Layout from "../../../components/layout";
+import Button from "../../../components/common/button";
+import Input from "../../../components/common/input";
+import Layout from "../../../components/common/layout";
 
 export default function EditProfile() {
   return (

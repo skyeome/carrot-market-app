@@ -1,7 +1,7 @@
-import Button from "../../../components/button";
-import Input from "../../../components/input";
-import Layout from "../../../components/layout";
-import TextArea from "../../../components/textarea";
+import Button from "../../../components/common/button";
+import Input from "../../../components/common/input";
+import Layout from "../../../components/common/layout";
+import TextArea from "../../../components/common/textarea";
 
 export default function Upload() {
   return (
